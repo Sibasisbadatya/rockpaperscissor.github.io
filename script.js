@@ -11,7 +11,7 @@ option.forEach((element, index, array) => {
         user.innerHTML = input;
 
         // loading 5 seconds......
-
+computer.innerHTML="";
         loading.innerText = "Wait 1 seconds";
         const arr = ["ROCK", "PAPER", "SCISSOR"];
       setTimeout(() => {
