@@ -12,7 +12,7 @@ option.forEach((element, index, array) => {
 
         // loading 5 seconds......
 
-        loading.innerText = "Wait 3 seconds";
+        loading.innerText = "Wait 1 seconds";
         const arr = ["ROCK", "PAPER", "SCISSOR"];
       setTimeout(() => {
             var random = arr[Math.floor(Math.random() * 3)]
@@ -57,7 +57,7 @@ option.forEach((element, index, array) => {
                 }
               }
         
-        }, 3000);
+        }, 1000);
         setTime();
         // showing result
 
